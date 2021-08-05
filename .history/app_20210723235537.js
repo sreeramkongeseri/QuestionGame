@@ -1,0 +1,71 @@
+const express = require('express');
+const app = express();
+const port = 3000;;
+
+
+
+app.use('/', express.static('public'));
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+})
+
+const csv = require('csvtojson');
+var quesData;
+var verbData;
+
+csv().fromFile('questions.csv').then(jsonObj => {
+    quesData = jsonObj.slice(0,87);
+});
+
+csv().fromFile('verbs.csv').then(jsonObj => {
+
+    verbDataRaw = jsonObj.slice(0,87);
+    verbData = [];
+
+    for(i = 0; i < verbDataRaw.length; i++) {
+
+        words = Object.values(verbDataRaw[i]);
+    
+        for (j=1; j < 7; j++) {
+            let dict = {};
+            let word = words[j-1];
+
+            if (word !== '') {
+                dict[word] = '' + j;
+                verbData.push(dict);
+            }
+        }
+    }
+});
+
+// questions1 = ['question 1.1', 'question 1.2', 'question 1.3', 'question 1.4'];
+// questions2 = ['question 2.1', 'question 2.2', 'question 2.3', 'question 2.4'];
+// questions3 = ['question 3.1', 'question 3.2', 'question 3.3', 'question 3.4'];
+// questions4 = ['question 4.1', 'question 4.2', 'question 4.3', 'question 4.4'];
+
+app.get('/api/level1', (req, res) => {
+
+    res.send(quesData.slice(0,3));
+});
+
+app.get('/api/level2', (req, res) => {
+    res.send(verbData.slice(0, 20));
+});
+
+app.get('/api/level3', (req, res) => {
+    res.send(quesData);
+});
+
+app.get('/api/level4', (req, res) => {
+    res.send(quesData);
+});
+
+
+
+// quesData = quesData[10];
+// quesData = quesData.map(x => x["Question"]);
+// console.log(quesData);
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level 2</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="main.css" /> -->
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+ 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script> 
+  
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+  
+  <!-- Script -->
+  <script src="js/main.js"></script>
+  <script src="js/level2.js"></script>
+  <script src="js/theory.js"></script>   
+
+  <link rel='stylesheet' href='css/main.css'>
+    
+</head>
+<body>
+    
+  <div id='main' >
+    <div class='d-flex flex-column justify-content-center text-center'>
+  
+      <p class = 'display-2 my-1'>Level 2</p>
+
+      <div id='topbar' class="container-fluid mb-1" >
+        <div class="row">
+          <div id="playerName" class="col left" >
+          </div>
+          <div id='time' class="col">
+          </div>
+          <div  class='col'>
+            <button id='pause'>Pause</button>
+          </div>
+          <div id='score' class="col right">score: 0
+          </div>
+        </div>
+      </div>
+    
+      <div id='parent'></div>
+
+      <div id='next' class='d-none' style='margin: 150px 0px 150px 0px'>
+        
+        <h1 class="mb-4">Level 2 Complete!</h1>
+        <p style="font-size:40px">Time: <span id='finalTime'></span></p>
+        <p style="font-size:40px">Score: <span id='finalScore'></span></p>
+        <!-- <p>Total Score: <span id='totalScore'></span></p> -->
+        <a href="level3.html" role="button" class="btn btn-primary align-self-center" style="margin-top: 50px; padding:10px 20px 10px 20px">
+          <p style="font-size:40px" >continue</p>
+        </a>
+      </div>
+
+
+      <div id='botbar' class='container-fluid mt-3'>
+        <!-- Button trigger modal -->
+        <div class='row'>
+
+          <div class='col left'>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#introModal">
+              Introduction Video
+            </button>
+          </div>
+
+        <!-- Button trigger modal -->
+        <div class='col'>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#tedModal">
+            TED-Ed Video
+          </button>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class='col right'>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#theoryModal">
+            Theory Guide
+          </button>
+        </div>
+      </div> 
+
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width:800px">
+      <div class="modal-content" style="background:#FCE1C3">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style='margin-left:30px'>Introduction Video</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class='d-flex flex-column align-items-center mb-4'>
+
+        <iframe class='m-3' width="700" height="400"
+                  src="https://www.youtube.com/embed/5dyqECM3FWY">
+        </iframe>
+      </div>
+                  
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="tedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width:800px">
+      <div class="modal-content" style="background:#FCE1C3">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style='margin-left:30px'>Introduction Video</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class='d-flex flex-column align-items-center mb-4'>
+
+          <iframe class='m-3' width="700" height="400"
+            src="https://www.youtube.com/embed/DkZ7BJQupVA">
+          </iframe>
+        </div>     
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="theoryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width:800px">
+      <div class="modal-content" style="background:#FCE1C3">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style='margin-left:30px'>Theory Guide</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class='py-2' id='theoryText'></div>                    
+      </div>
+    </div>
+  </div>
+</body>
+

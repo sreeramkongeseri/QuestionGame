@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level 1</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="main.css" /> -->
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <!-- Script -->
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+
+  
+
+</head>
+
+
+<body>
+
+</body>
+
+<script>
+     var config = {
+        type: Phaser.AUTO,
+        width: 1000,
+        height: 600,
+        physics: {
+            default: 'arcade',
+            arcade: {
+                debug: false
+            }
+        },
+        scene: {
+            preload: preload,
+            create: create,
+            update: update
+        }
+    };
+
+    var player;
+    var platforms;
+
+    var game = new Phaser.Game(config);
+
+    var score = 0;
+    var scoreText;
+
+    function preload ()
+    {
+        this.load.image('bin', '../img/bin.png');
+        this.load.image('ground', '../img/platform.png');
+        
+    }
+
+    function create ()
+    {
+
+        scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px'});
+
+        // console.log(container.body);
+        // container.body.setVelocity(100, 200).setBounce(1, 1).setCollideWorldBounds(true);
+        bins = this.physics.add.staticGroup({
+            key: 'bin',
+            repeat: 5,
+            setXY: { x: 100, y: 500, stepX: 150 }
+        });
+
+
+        let i = 1;
+        bins.children.iterate(function (child) {
+
+            //  Give each star a slightly different bounce
+            child.setScale(0.2).refreshBody();
+            child.name = "" + i;
+            i += 1;
+        });
+
+
+        // wordData = fetch('api/level2').then(response => response.json()).then(wordData =>
+        //     createWords(["classify", 'understand', 'think', 'evaluate'])
+        // );
+
+        var wordNames = [{'think':'1'}, {'analyze':'2'}, {'understand':'3'}, {'evaluate':'4'}]
+        var cur = 0;
+        var self = this;
+        
+
+        id = setInterval((wordNames, self) => {
+
+            wordName = Object.keys(wordNames[cur])[0];
+            wordBucket = Object.values(wordNames[cur])[0];
+
+            word = this.add.text(0, 0, wordName, {fontFamily: "Helvetica Neue"}).setFontSize(20);
+            container = this.add.container(Phaser.Math.Between(70, 900), -10, [ word ]);
+            container.bucket = wordBucket;
+
+            word.setOrigin(0.5);    
+            container.setSize(70,20);
+
+            this.physics.world.enable(container);
+
+            container.setInteractive();
+            this.input.setDraggable(container);
+
+            this.input.on('drag', function (pointer, gameObject, dragX, dragY) {
+                gameObject.x = dragX;
+                gameObject.y = dragY;
+            });
+
+            this.physics.add.collider(container, bins, done);
+            this.physics.add.overlap(container, bins, done, null, this);
+
+            container.body.setVelocity(0, 10);
+
+            cur += 1;
+            
+        }, 5000, wordNames, self);
+
+    
+
+    
+        
+        // fetch("https://us-central1-secret-game-37a22.cloudfunctions.net/app/api/level1").then(response => response.json()).then(quesData =>
+    //    update(quesData)
+    // );
+        
+    }
+
+    function update ()
+    {
+    }
+
+
+    function done (container, bin) {
+         
+        console.log(container.bucket, bin.name);
+
+        if (container.bucket === bin.name) {
+            console.log("correct!!");
+            score += 1;
+            scoreText.setText('score: ' + score);
+
+        } else console.log("incorrect");
+
+        if (cur === wordNames.length - 1) {
+            clearInterval(id);
+            end(score);
+        }
+
+        container.destroy();
+        
+        
+
+    // //  Add and update the score
+    // score += 10;
+    // scoreText.setText('Score: ' + score);
+
+    // if (stars.countActive(true) === 0)
+    // {
+    //     //  A new batch of stars to collect
+    //     stars.children.iterate(function (child) {
+
+    //         child.enableBody(true, child.x, 0, true, true);
+
+    //     });
+
+    //     var x = (player.x < 400) ? Phaser.Math.Between(400, 800) : Phaser.Math.Between(0, 400);
+
+    //     var bomb = bombs.create(x, 16, 'bomb');
+    //     bomb.setBounce(1);
+    //     bomb.setCollideWorldBounds(true);
+    //     bomb.setVelocity(Phaser.Math.Between(-200, 200), 20);
+    //     bomb.allowGravity = false;
+
+    }
+
+
+
+
+</script>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level 2</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="main.css" /> -->
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <script src='js/level2.js'></script>
+  <script src='js/theory.js'></script>
+
+  <link rel='stylesheet' href='css/main.css'>
+    
+</head>
+<body>
+    
+  <div id='main' >
+    <div class='d-flex flex-column justify-content-center text-center'>
+  
+      <p class = 'display-2 mb-5'>Level 2</p>
+
+      <div id class="container">
+        <div class="row">
+          <div class="col text-left">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col text-right">
+            Column
+          </div>
+        </div>
+      </div>
+
+      <div id='topbar' class='d-flex'>
+        <p id='playerName' class='left' ></p>
+        <p id='time' class='center' >Time</p>
+        <p id='score' class='right'>Score</p>
+      </div>
+      
+      <div id='parent'></div>
+
+
+      <div id='botbar' class='d-flex'>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary left mt-3" data-bs-toggle="modal" data-bs-target="#introModal">
+          Introduction Video
+        </button>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary center mt-3" data-bs-toggle="modal" data-bs-target="#tedModal">
+          TED-Ed Video
+        </button>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary right mt-3" data-bs-toggle="modal" data-bs-target="#helpModal">
+          Theory Guide
+        </button>
+      </div> 
+
+
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width:800px">
+      <div class="modal-content" style="background:#FCE1C3">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style='margin-left:30px'>Theory Guide</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class='py-2' id='theoryText'></div>                    
+      </div>
+    </div>
+  </div>
+
+</body>

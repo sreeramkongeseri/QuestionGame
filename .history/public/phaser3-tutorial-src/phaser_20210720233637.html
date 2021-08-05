@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+</head>
+<body>
+    <script>
+    var config = {
+        type: Phaser.AUTO,
+        width: 800,
+        height: 600,
+        backgroundColor: 'F0F7F7',
+        scene: {
+            preload: preload,
+            create: create
+        }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function preload ()
+    {
+        this.load.image('logo', 'assets/platform.png');
+        this.load.image('cloud', 'assets/cartoon cloud.png');
+    
+
+    }
+
+    function create ()
+    {
+        var cloud = this.add.image(400, 300, 'cloud');
+        cloud.setScale(0.3);
+
+        var logo = this.add.image(400, 100, 'logo');
+        logo.setScale(0.5, 1);
+        logo.setInteractive();
+        this.input.setDraggable(logo);
+
+        this.add.image(400, 200, 'bucket');
+        this.add.image(400, 400, 'bucket');
+
+        this.input.on('drag', function (pointer, gameObject, dragX, dragY) {
+            gameObject.x = dragX;
+            gameObject.y = dragY;
+        });
+    }
+    </script>
+
+</body>
+</html>

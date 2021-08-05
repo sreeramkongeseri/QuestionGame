@@ -1,0 +1,141 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level 1</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="main.css" /> -->
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script> 
+  
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+
+</head>
+
+<script>
+  const db = getDB().ref();
+  stor = window.localStorage;
+  db.child("users/" + stor.getItem("name") + "/game1/lvl_1").set({score: stor.getItem("s_1"), time:stor.getItem("t_1")});
+  db.child("users/" + stor.getItem("name") + "/game1/lvl_2").set({score: stor.getItem("s_2"), time:stor.getItem("t_2")});
+  db.child("users/" + stor.getItem("name") + "/game1/lvl_3").set({score: stor.getItem("s_3"), time:stor.getItem("t_3")});
+ // db.child("users/" + window.localStorage.playerName + "/game1/lvl_4").set(window.localStorage.get(l_4));
+</script>
+
+
+<body>
+  <div class='d-flex justify-content-center p-5'> 
+        <div class='d-flex flex-column justify-content-center text-center'>
+            <span id='score' class='pb-4'>Score</span>  
+
+
+            <div class='container'>
+              <div class="row">
+                  <div class="col">
+                    level #
+                  </div>
+                  <div class="col">
+                    score
+                  </div>
+                  <div class="col">
+                    time
+                </div>
+                <div class="row" id="1">
+                  <div class="col">
+                    1
+                  </div>
+                  <div class="col" class="score">
+                  </div>
+                  <div class="col" class="time">
+                  </div>
+                </div>
+                <div class="row" id="2">
+                  <div class="col">
+                    2
+                  </div>
+                  <div class="col" class="score">
+                  </div>
+                  <div class="col" class="time">
+                  </div>
+                </div>
+                <div class="row" id="3">
+                  <div class="col">
+                    3
+                  </div>
+                  <div class="col" id="score">
+                  </div>
+                  <div class="col" id="time">
+                  </div>
+                </div>
+                <div class="row" id="4">
+                  <div class="col">
+                    4
+                  </div>
+                  <div class="col" id="score">
+                  </div>
+                  <div class="col" id="time">
+                  </div>
+                </div>
+            </div>
+            
+            
+
+                   <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-secondary align-self-center mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    help
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Help</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                      <div class="modal-body">
+                          Here's some help text.
+                      </div>
+                    </div>
+                    </div>
+                </div>
+
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> 
+
+    </div>
+
+</body>

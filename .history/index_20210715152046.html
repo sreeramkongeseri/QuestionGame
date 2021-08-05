@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreeram Chettan</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <!-- Script -->
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+    <canvas id='myCanvas' width='480' height='320'></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext('2d');
+        ctx.beginPath();
+        ctx.rect(200, 40, 50, 50);
+        ctx.fillStyle = '#FF0000';
+        ctx.fill();
+        ctx.closePath();
+
+    </script>
+    <!-- <div class='d-flex justify-content-center p-4'> 
+        <div class='d-flex'> Welcome to the Secret Game</div> -->
+        <!-- <div class="d-flex flex-column align-items-center p-4 text-center">
+       
+            Here's a question that Sreeram Chettan's going to make
+
+            <div class='d-flex pt-4'>
+                <svg class='mr-3' width="100" height="100">
+                    <rect width="100" height="100" style="fill:rgb(0,0,255);" />
+                </svg>
+        
+                <svg width="100" height="100">
+                    <rect width="100" height="100" style="fill:rgb(255, 17, 0);" />
+                </svg>
+            </div>
+        </div> -->
+    <!-- </div> -->
+</body>

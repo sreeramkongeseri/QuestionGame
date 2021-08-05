@@ -1,0 +1,531 @@
+{
+    "questions": [
+      {
+        "No": "1",
+        "Question": "Define green house effect.",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "2",
+        "Question": "What is the major factor for ozone hole in the atmosphere?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "3",
+        "Question": "List the harmful effects of burning fossil fuels.",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "4",
+        "Question": "Where did the scientist find the ozone hole in the atmosphere?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "5",
+        "Question": "What’s the difference between weather and climate?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "6",
+        "Question": "Is climate change caused by humans?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "7",
+        "Question": "How is climate change affecting the lives of animals?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "8",
+        "Question": "What are the main threats caused by climate change?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "9",
+        "Question": "List out  few solutions to solve climate change",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "10",
+        "Question": "Name few green house gases.",
+        "BT Level": "1",
+        "DoK": ""
+      },
+      {
+        "No": "11",
+        "Question": "Recall the atmospheric layers starting  from closest to the surface to the top of the atmosphere",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "12",
+        "Question": "What absorbs ultra-violet rays in stratosphere?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "13",
+        "Question": "What is thrown in atmosphere by volcanic eruptions?",
+        "BT Level": "1",
+        "DoK": ""
+      },
+      {
+        "No": "14",
+        "Question": "what is global warming?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "15",
+        "Question": "list out some examples of renewable resources.",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "16",
+        "Question": "what are the most visible signs of global warming?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "17",
+        "Question": "what are the major causes of air pollution",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "18",
+        "Question": "how does agriculture effect climate change?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "19",
+        "Question": "what are carbon emissions?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "20",
+        "Question": "what are the five effects of climate change?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "21",
+        "Question": "Name the biggest cause of global warming.",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "22",
+        "Question": "how will climate change effect humans?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "23",
+        "Question": "list 4 ways to manage climate change.",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "24",
+        "Question": "How can you save energy at home?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "25",
+        "Question": "What is the most abundant green house gas in the atmosphere?",
+        "BT Level": "1",
+        "DoK": "1"
+      },
+      {
+        "No": "26",
+        "Question": "Explain other causes of climate change besides human interaction.",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "27",
+        "Question": "Give a brief description of how the Earth's temperature has changed throughout the last 800,000 years",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "28",
+        "Question": "Explain the role of aerosols, permanent gases and variable gases in climate.",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "29",
+        "Question": "Explain the main cause of climate change, how it impacts the environment and its consequences for the poor.",
+        "BT Level": "2",
+        "DoK": "3"
+      },
+      {
+        "No": "30",
+        "Question": "Illustrate the reasons why some countries produce more carbon emissions than other countries",
+        "BT Level": "2",
+        "DoK": "3"
+      },
+      {
+        "No": "31",
+        "Question": "Explain why preventing global warming is important for you.",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "32",
+        "Question": "Demonstrate how green house gases keep our planet warm.",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "33",
+        "Question": "Whyis doomand gloom messaging not  working?",
+        "BT Level": "",
+        "DoK": ""
+      },
+      {
+        "No": "34",
+        "Question": "Whya",
+        "BT Level": "",
+        "DoK": ""
+      },
+      {
+        "No": "35",
+        "Question": "Refrigerants are considered to be a necessity in modem living, but are said to be responsible  for ozone holes detected in Antarctica. Justify.",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "36",
+        "Question": "",
+        "BT Level": "",
+        "DoK": ""
+      },
+      {
+        "No": "37",
+        "Question": "Identify five ways that your life would be different if  you lived near the Amazon rain forest",
+        "BT Level": "3",
+        "DoK": "3"
+      },
+      {
+        "No": "38",
+        "Question": "Construct ways how people could respond to the issue of climate change.",
+        "BT Level": "3",
+        "DoK": "3"
+      },
+      {
+        "No": "39",
+        "Question": "Build an action plan to reduce the effects of global warming.",
+        "BT Level": "3",
+        "DoK": "4"
+      },
+      {
+        "No": "40",
+        "Question": "Examine what natural disasters are linked to climate change.",
+        "BT Level": "4",
+        "DoK": "3"
+      },
+      {
+        "No": "41",
+        "Question": "Analyze how climate change effects the life of human.",
+        "BT Level": "4",
+        "DoK": "4"
+      },
+      {
+        "No": "42",
+        "Question": "Examine the different sources of renewable resources",
+        "BT Level": "4",
+        "DoK": "3"
+      },
+      {
+        "No": "43",
+        "Question": "Analyze the connection between sustainability and climate change.",
+        "BT Level": "4",
+        "DoK": "4"
+      },
+      {
+        "No": "44",
+        "Question": "Examine the relationship between globalization and climate change.",
+        "BT Level": "4",
+        "DoK": "3"
+      },
+      {
+        "No": "45",
+        "Question": "Compare the various goals of NGO'S in climate change.",
+        "BT Level": "5",
+        "DoK": "2"
+      },
+      {
+        "No": "46",
+        "Question": "Critize the current laws regarding environment protection.",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "47",
+        "Question": "Analyze the role of political influence in protecting the environment.",
+        "BT Level": "4",
+        "DoK": "4"
+      },
+      {
+        "No": "48",
+        "Question": "Asses some of the greener alternatives to plastic.",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "49",
+        "Question": "Should there be a  binding international environmental constitution? justify",
+        "BT Level": "5",
+        "DoK": "4"
+      },
+      {
+        "No": "50",
+        "Question": "Evaluate the key concepts of environmentalism",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "51",
+        "Question": "Discuss the influence of green political parties in protection of environment.",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "52",
+        "Question": "Discuss the most significant causes of climate change.",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "53",
+        "Question": "Elaborate how deforestation affects the climate.",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "54",
+        "Question": "Discuss the advantages of green engineering",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "55",
+        "Question": "Brainstorm how and why human beings change the natural environment",
+        "BT Level": "4",
+        "DoK": "4"
+      },
+      {
+        "No": "56",
+        "Question": "Identify the problems, responses and benefits of a forest regeneration project",
+        "BT Level": "4",
+        "DoK": "4"
+      },
+      {
+        "No": "57",
+        "Question": "Formulate a plan to conserve energy at your home.",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "58",
+        "Question": "Propose 3 solutions how you would solve the issue of climate change.",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "59",
+        "Question": "“Balance” is a key word when assessing climate change and our role in influencing change – one way or the other. The industrial  revolution and the on-going industrialization of the world have tipped the balance of CO2 in the atmosphere. Discuss some ways that both industry and individuals can help redress the balance.",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "60",
+        "Question": "What are some of the things we could change in the way we live and work to help decrease the amount of CO2 we emit into the atmosphere? What would we, as individuals, be willing to give up, to help this process?",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "61",
+        "Question": "What is the connection between global warming and increased levels of water vapour?",
+        "BT Level": "5",
+        "DoK": "2"
+      },
+      {
+        "No": "62",
+        "Question": "What might be one solution to the problem of increased methane? Could the methane be trapped and used in other ways? Discuss how methane gas is used already in different parts of the world.",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "63",
+        "Question": "What is the relationship between the global carbon cycle and the ocean?",
+        "BT Level": "4",
+        "DoK": "3"
+      },
+      {
+        "No": "64",
+        "Question": "Which is more of a problem for global warming – population growth or industrial growth? Or is it a matter of how industry  operates and grows?",
+        "BT Level": "5",
+        "DoK": "4"
+      },
+      {
+        "No": "65",
+        "Question": "Give an example of a situation where you would use behavioral sciences to solve the problem. Elaborate",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "66",
+        "Question": "Compare polar regions (with glaciers and snow-and-ice cover) to temperate regions.  Which region is likely to experience a sharper temperature rise? Compare",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "67",
+        "Question": "Co2 Is Already In The Atmosphere Naturally, So Why Are Emissions From Human Activity Significant?",
+        "BT Level": "5",
+        "DoK": "3"
+      },
+      {
+        "No": "68",
+        "Question": "What effect does global warming have on food production? What kind of impact does this effect have on rich and poor countries?",
+        "BT Level": "5",
+        "DoK": "4"
+      },
+      {
+        "No": "69",
+        "Question": "How many different types of renewable energy are there? Identify the best one according to you and justify your answer",
+        "BT Level": "3",
+        "DoK": "2"
+      },
+      {
+        "No": "70",
+        "Question": "Asses what is meant by energy efficiency, and why increasing efficiency does not lower the amount of total energy consumed.",
+        "BT Level": "5",
+        "DoK": "4"
+      },
+      {
+        "No": "71",
+        "Question": "Discuss the future of carbon emissions.If restrictions were to be imposed, where would the greatest difference be made, who would need to be restricted, what are the options for carbon sequestration, and how would that contribute to energy costs?",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "72",
+        "Question": "In your opinion, what kind of energy should we be investing in for the future and why?",
+        "BT Level": "5",
+        "DoK": "4"
+      },
+      {
+        "No": "73",
+        "Question": "Why are electric vehicles not in widespread use? Also, compare fossil fuel powered vehicles to electric powered vehicles.",
+        "BT Level": "4",
+        "DoK": "3"
+      },
+      {
+        "No": "74",
+        "Question": "If you were to build a power plant, which type (fuel) would you build? Why? (Include at least 6 benefits and disadvantages to your power plant type)",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "75",
+        "Question": "In 100 years, where do you think our primary energy will come from? Why?",
+        "BT Level": "3",
+        "DoK": "3"
+      },
+      {
+        "No": "76",
+        "Question": "The government  mandates that you get 15% of your home’s energy from renewables.  construct a plan about how you will  do that",
+        "BT Level": "3",
+        "DoK": "3"
+      },
+      {
+        "No": "77",
+        "Question": "Describe your ideal power grid. Include where the energy sources come from, primary usages, impact, and cost. Comment on what it would take for your dream to be realized.",
+        "BT Level": "6",
+        "DoK": "3"
+      },
+      {
+        "No": "78",
+        "Question": "There is only a finite amount of oil in the world. What are some alternatives transportation fuels that may be used when oil runs out?",
+        "BT Level": "3",
+        "DoK": "3"
+      },
+      {
+        "No": "79",
+        "Question": "Compare and contrast different source of non-continuous renewable energy.",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "80",
+        "Question": "In the future, according to the paper, 80% of carbon emissions will come from the developing world. Discuss all the factors developing countries need to take into account when confronted with such problem.",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "81",
+        "Question": "Renewable energy accounts for a mere 6% of total energy use in the United  States. That fraction is not expected to grow in the next 30 years despite fears of exhausting fossil  fuel reserves and political pressures for “green” energy. Please discuss why this is the case.",
+        "BT Level": "6",
+        "DoK": "4"
+      },
+      {
+        "No": "82",
+        "Question": " Explain the major benefit of reforming natural gas for hydrogen fuel, rather than burning the gas directly?",
+        "BT Level": "2",
+        "DoK": "2"
+      },
+      {
+        "No": "83",
+        "Question": "Explain the significance of energy consumption as prosperity?",
+        "BT Level": "2",
+        "DoK": "3"
+      },
+      {
+        "No": "84",
+        "Question": "Explain the principle of conversion of solar energy into heat energy.",
+        "BT Level": "2",
+        "DoK": "1"
+      },
+      {
+        "No": "85",
+        "Question": "What do you understand by energy conservation? Explain in brief the salient  features of Energy Conservation Act",
+        "BT Level": "2",
+        "DoK": "1"
+      },
+      {
+        "No": "86",
+        "Question": "Classify the sources of radioactive pollution with a neat flow chart. Explain the effects of non-ionising radiations.",
+        "BT Level": "4",
+        "DoK": "1"
+      },
+      {
+        "No": "87",
+        "Question": "Explain the Environment Protection Act in your own words.",
+        "BT Level": "2",
+        "DoK": "2"
+      }
+    ],
+
+    "verbPhrases": [{"question":"What is _____?","DoK":"1"},{"question":"What facts or ideas show  ___?","DoK":"2"},{"question":"What would be the result if  ___?","DoK":"3"},{"question":"What was the underlying problem with  ___?","DoK":"4"},{"question":"Write a possible solution to  ___?","DoK":"5"},{"question":"What alternative would you suggest for ___?","DoK":"6"},{"question":"How would you describe ___?","DoK":"1"},{"question":"How would you compare  ___?","DoK":"2"},{"question":"What approach would you use to  ___?","DoK":"3"},{"question":"What do you see as other possible outcomes?","DoK":"4"},{"question":"If you had access to all resources how would you deal with  ___?","DoK":"5"},{"question":"What changes would you make to revise ___?","DoK":"6"},{"question":"Why did ___?","DoK":"1"},{"question":"How would you classify  ___?","DoK":"2"},{"question":"How would you use  ___?","DoK":"3"},{"question":"Find the root cause of ____?","DoK":"4"},{"question":"What would happen if  ___?","DoK":"5"},{"question":"How would you generate a plan to ___?","DoK":"6"},{"question":"How would your show ___?","DoK":"1"},{"question":"Can you write in your own words  ___?","DoK":"2"},{"question":"Do you know another instance where  ___?","DoK":"3"},{"question":"How would you explain the consequences of _____?","DoK":"4"},{"question":"How many ways can you  ___?","DoK":"5"},{"question":"What could you invent to ___?","DoK":"6"},{"question":"Define the term ___?","DoK":"1"},{"question":"Write a brief outline  ___?","DoK":"2"},{"question":"What factors would you change if  ___?","DoK":"3"},{"question":"Predict the second order consequences of ___?","DoK":"4"},{"question":"Create new and unusual uses for  ___?","DoK":"5"},{"question":"Invent a new technology for ___?","DoK":"6"},{"question":"List the factors that ___?","DoK":"1"},{"question":"What do you think could of happened next  ___?","DoK":"2"},{"question":"Can you apply the method used to other instances  ___?","DoK":"3"},{"question":"Can you choose characteristics such as  ___ to ____?","DoK":"4"},{"question":"Develop a proposal which would  ___?","DoK":"5"},{"question":"Propose an 
+alternative way to ___?","DoK":"6"},{"question":"Where did ___?","DoK":"1"},{"question":"Can you distinguish between  ___?","DoK":"2"},{"question":"From the information given, develop a  ___?","DoK":"3"},{"question":"Compose a poem about  ___?","DoK":"5"},{"question":"Design a campaign to ___?","DoK":"6"},{"question":"Arrange the following ___?","DoK":"1"},{"question":"What differences exist between  ___?","DoK":"2"},{"question":"Do you know another instance where  ___?","DoK":"3"},{"question":"Evaluate this case study about  ___?","DoK":"5"},{"question":"Develop an idea for ___?","DoK":"6"},{"question":"Match the following ___?","DoK":"1"},{"question":"Provide an example of  ___?","DoK":"2"},{"question":"From the information given, build a  ___?","DoK":"3"},{"question":"Select & justify the most appropriate action in this case?","DoK":"5"},{"question":"Name the ___?","DoK":"1"},{"question":"Classify the 
+following  ___?","DoK":"2"},{"question":"List the principles using which l_____?","DoK":"3"},{"question":"Judge the importance of  ___?","DoK":"5"},{"question":"What do you remember about ___?","DoK":"1"},{"question":"How would you recognize ___?","DoK":"2"},{"question":"Develop a proposal for ___?","DoK":"5"},{"question":"How would you identify ___?","DoK":"1"},{"question":"What information would you use to prioritize to ___?","DoK":"5"},{"question":"When did the ___?","DoK":"1"},{"question":"List a set 
+of criteria to compare \n___?","DoK":"5"}]
+  }

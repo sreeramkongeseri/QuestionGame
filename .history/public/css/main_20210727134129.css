@@ -1,0 +1,28 @@
+.left {
+    text-align: left; 
+    padding-left: 50px
+}
+
+
+.right {
+    text-align: right; 
+    padding-right: 50px
+}
+
+/* 
+#playerName {
+    width: 33.33%; 
+    text-align:left; 
+    margin-left: 50px
+}
+
+#time {
+    width: 33.33%; 
+    text-align:center
+}
+
+#score {
+    width: 33.33%; 
+    text-align:right;
+    margin-right: 50px
+} */

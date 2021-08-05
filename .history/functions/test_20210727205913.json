@@ -1,0 +1,21 @@
+{
+    "user": {
+        "Sreeram": {
+            "username": "Sreeram",
+            "id": "Sram123"
+        },
+        "Kaiva": {
+            "username": "Kaiva",
+            "id": "kaiva23"
+        }
+    },
+
+    "gamescores": {
+        "Sreeram": {
+            "score": {
+                "level1": 5, 
+                "level2": 6
+            }
+        }        
+    }
+}
